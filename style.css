@@ -1,0 +1,21 @@
+/* hero */
+
+.hero {
+    background-image: url("https://picsum.photos/1048");
+    background-position: center;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.inner {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card {
+    margin: auto auto;
+    padding: 50px 75px;
+    border-radius: 17%;
+}
