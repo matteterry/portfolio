@@ -4,28 +4,130 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Matthew Terry attorney full-stack web developer Kansas City </title>
+
+        <!-- Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Permanent+Marker&display=swap" rel="stylesheet">
+        
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        
+        <!-- Stylesheet-->
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
   
     <body>
-        <div class="container-xxl">
-            <div class="row flex-nowrap">
-                <div class="col-12 col-md-6 col-lg-12">
-                    <div class="rounded-3s hero position-relative">
-                        <div class="d-flex align-items-center position-absolute inner">
-                            <div class="flex card">
-                                <h2 class="mx-5 name">Matthew Terry</h2>
-                                <p class="text-center title">Full-Stack Software Developer</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
+    <!-- Navbar on medium on down-->
+        <nav class="navbar d-lg-none navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Matthew E. Terry</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-auto" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact me</a>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
 
-    
+    <!-- Main Hero Content-->
+        <div class="container-flex">
+          <div class="row">
+            <div class="col-12 hero position-relative">
+              <div class="heroBox position-absolute top-50 start-50 translate-middle text-center text-white border border-3 border-light">
+                <h4>Matt Terry</h4>
+                <p class="fw-lighter">Student Software Developer in Kansas City</p>
+                <div class="iconRow">
+                  <span class="align-center">
+                    <i class="fab fa-linkedin fa-3x py-4 px-4"></i>
+                    <i class="fab fa-facebook-square fa-3x py-4 px-4"></i>
+                    <i class="fab fa-instagram fa-3x py-4 px-4"></i>
+                  </span>
+                </div>    
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <hr>
+     
+    <!-- About me-->
+    <div class="container-flex">
+    <h5 class="my-4 pb-4 ms-3">About Me</h5>
+      <div class="row g-0">
+        <div class="col-12 col-md-6 order-md-2">
+          <img src="https://picsum.photos/200/300" class="img-fluid w-100">
+        </div>
+        <div class="col-12 col-md-6 aboutBox order-md-1">
+          <h3>About me goes Here</h3>
+          <p>Lorum ipsum and stuff goes in this highly padded box</p>
+        </div>
+      </div>
+    </div>
+
+      <hr />
+
+    <!-- Portfolio-->
+    <div class="container-xxl id="portfolio">
+      <h5 class="my-4 pb-4 ms-3">Portfolio</h5>
+      <div class="row d-flex my-5 mx-5">
+        <div class="col-sm-12 col-md-6 col-lg-9">
+          <a href="https://wizardly-nobel-fc258c.netlify.app" target="_blank">
+            <img class="img-fluid rounded border border-5 me-5" src="./images/Apple clone.png" />
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5>Apple home page</h5>
+          <p>This was my fiirst coding assignment. I used basic HTML and CSS to clone a version of Apple's homepage.</p>
+        </div>
+      </div>
+
+      <div class="row d-flex my-5 mx-5">
+        <div class="col-sm-12 col-md-6 col-lg-9">
+          <a href="https://elastic-noether-37b7d2.netlify.app/" target="_blank">
+            <img class="img-fluid rounded border border-5 me-5" src="./images/Newsweek clone.png" />
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5>Newsweek's responsive design</h5>
+          <p>Here I started my introduction into Bootstrap. The "nav-bar" was given to me, but I had to code all of the elements on the page</p>
+        </div>
+      </div>
+
+      <div class="row d-flex my-5 mx-5">
+        <div class="col-sm-12 col-md-6 col-lg-9">
+          <a href="https://wonderful-bubblegum-01635d.netlify.app" target="_blank">
+            <img class="img-fluid rounded border border-5 me-5" src="./images/Airbnb news.png" />
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5>Airbnb's News page</h5>
+          <p>Using Bootstrap 4, every element of this was hand-coded to match Airbnb's "News" page</p>
+        </div>
+      </div>
+    <hr />
+
+    <!-- Footer-->
+      <footer>
+        <small>&copy; 2022, Matthew E. Terry. All Rights Reserved</small>
+        <p>
+          <small>Part of the Fullstack Program from <a href="https://altcademy.com">Alcademy</small>
+      </footer>
+
+
     
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

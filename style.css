@@ -1,21 +1,44 @@
 /* hero */
 
 .hero {
-    background-image: url("https://picsum.photos/1048");
+    background-image: url(./images/pexels-danny-meneses-943096.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 750px;
+    height: 100vh;
 }
 
-.inner {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.heroBox {
+    padding: 60px 90px 60px 90px;
+
 }
 
-.card {
-    margin: auto auto;
-    padding: 50px 75px;
-    border-radius: 17%;
+.heroBox h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: 4rem;
+    font-size: 36pt;
 }
+
+.heroBox h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.heroBox p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 18pt;
+}
+
+@media (max-width: 767px) {
+    .heroBox {
+        padding: 30px 45px 0 45px;
+    }
+}
+
+
+/* About me*/
+
+.aboutBox {
+    background-color: rosybrown;
+}
+
