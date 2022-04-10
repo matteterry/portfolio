@@ -1,3 +1,19 @@
+.body h5, h4, h3, h2, h1, p, a {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* navbar */
+
+.navbar a:link, a:visited {
+    color: black;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(19, 152, 229);
+    padding-bottom: 6px;
+}
+
 /* hero */
 
 .hero {
@@ -9,8 +25,16 @@
 
 .heroBox {
     padding: 60px 90px 60px 90px;
-
 }
+
+.heroBox a:link, a:visited {
+    color: white;
+}
+
+.heroBox a:hover {
+    color: gray;
+
+} 
 
 .heroBox h4 {
     font-family: 'Oswald', sans-serif;
@@ -31,14 +55,46 @@
 
 @media (max-width: 767px) {
     .heroBox {
-        padding: 30px 45px 0 45px;
+        padding: 30px 45px 20px 45px;
+    }
+
+    .iconRow {
+        font-size: 12pt;
     }
 }
 
 
+
 /* About me*/
 
-.aboutBox {
-    background-color: rosybrown;
+.mainHed {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
 }
 
+.aboutBox {
+    background-color: rgb(19, 152, 229);
+    font-family: 'Inter', sans-serif;
+}
+
+.aboutText {
+    padding-top: 18px;
+}
+
+@media (max-width: 768px) {
+    .aboutText {
+        padding-top: 10px;
+        font-size: 0.1rem;
+    }
+}
+
+
+
+/* portfolio */
+
+@media (max-width: 576px) {
+    .portText {
+        padding-top: 18px;
+    }
+}
